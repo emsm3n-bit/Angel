@@ -14,7 +14,7 @@
     "restore:db": "node scripts/restore.js",
     "backup:drill": "node scripts/restore-drill.js"
   },
-  "dependencies": {
+ "dependencies": {
     "@discordjs/rest": "^2.6.1",
     "axios": "^1.15.2",
     "discord.js": "^14.26.4",
@@ -24,7 +24,9 @@
     "pg": "^8.11.3",
     "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "@discordjs/voice": "^0.17.0",
+    "libsodium-wrappers": "^0.7.13"
   },
   "engines": {
     "node": ">=18.0.0"
